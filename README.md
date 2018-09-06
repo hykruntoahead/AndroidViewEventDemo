@@ -71,7 +71,7 @@ View事件体系 -- 滑动冲突
               
        在父容器中:
               public boolean onInterceptTouchEvent(MotionEvent event){
-                  int action = evnet.getAction();
+                  int action = event.getAction();
                   if(action == MotionEvent.ACTION_DOWN){
                         return false;
                   }else{
