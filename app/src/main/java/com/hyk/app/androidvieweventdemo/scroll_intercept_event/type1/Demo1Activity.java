@@ -1,4 +1,4 @@
-package com.hyk.app.androidvieweventdemo.scroll_intercept_event;
+package com.hyk.app.androidvieweventdemo.scroll_intercept_event.type1;
 
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;

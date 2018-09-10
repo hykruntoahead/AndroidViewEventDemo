@@ -1,4 +1,4 @@
-package com.hyk.app.androidvieweventdemo.scroll_intercept_event;
+package com.hyk.app.androidvieweventdemo.scroll_intercept_event.type1;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -41,7 +41,7 @@ public class ListViewEx extends ListView {
                 break;
             case MotionEvent.ACTION_MOVE:
                 int deltaX = x - mLastX;
-                int deltaY = x - mLastY;
+                int deltaY = y - mLastY;
                 if (Math.abs(deltaX) > Math.abs(deltaY)) {
                     mHorizontalScrollViewEx2.requestDisallowInterceptTouchEvent(false);
                 }

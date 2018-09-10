@@ -12,7 +12,7 @@
         android:layout_marginBottom="5dp"
         android:text="TextView" />
 
-    <com.hyk.app.androidvieweventdemo.scroll_intercept_event.ListViewEx
+    <com.hyk.app.androidvieweventdemo.scroll_intercept_event.type1.ListViewEx
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

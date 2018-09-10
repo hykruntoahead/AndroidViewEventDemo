@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context=".scroll_intercept_event.Demo1Activity">
+    tools:context=".scroll_intercept_event.type1.Demo1Activity">
 
-    <com.hyk.app.androidvieweventdemo.scroll_intercept_event.HorizontalScrollViewEx
+    <com.hyk.app.androidvieweventdemo.scroll_intercept_event.type1.HorizontalScrollViewEx
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    </com.hyk.app.androidvieweventdemo.scroll_intercept_event.HorizontalScrollViewEx>
+    </com.hyk.app.androidvieweventdemo.scroll_intercept_event.type1.HorizontalScrollViewEx>
 
 </android.support.constraint.ConstraintLayout>
